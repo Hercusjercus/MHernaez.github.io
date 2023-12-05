@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-image: url("../Images/Background.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-bottom: 0.67em;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    margin: -20px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    color: #068E06;
+    font-weight: 600;
+    background-color: #FECC47;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    font-size: 20px;
+}
+
+h5 {
+    color: #F7931E;
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #A4DBE4;
+    vertical-align: middle;
+}
+
+.flex-container > div {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.flex-container1 {
+    background-color: #F7931E;
+    opacity: 0.9;
+    width: 1500px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-container2 {
+    display: flex;
+    background-color: #5B8D27;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container2 > div {
+    background-color: #FECC47;
+    color: white;
+    width: 100%;
+    margin: 8.5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: left;
+    clear: both;
+}
+
+.flex-container3 > div {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+    height: auto;
+    float: left;
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+
+.topnav { 
+    width: 100%;
+    background-color: #A4DBE4;
+    opacity: 1;
+    line-height: 35px;
+    float: left;
+}
+
+.topnav a {
+    display: block;
+   color: black;
+    opacity: 1;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    display: block;
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul{
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    z-index: 1000;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #5B8D27;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {
+    border-radius: 4px;
+}
+
+.topnav ul li ul li a:hover {
+    background-color: white;
+}
+
+.footer {
+    padding-top: 0px;
+    margin-top: 0%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    color: black;
+    text-align: center;
+    font-size: 11px;
+}
+
+.flex-container4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.flex-container4 > div {
+    background-color: #068E06;
+    width: 100%;
+}
+
+.pt1 {
+    color: #068E06;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FECC47;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.pt2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pt3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pt4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pt5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pt6 {
+    color: #068E06;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FECC47;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.pt7 {
+    color: #A4DBE4;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-color: #FECC47;
+    background-color: #068E06;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.pt8 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pt10 {
+    font-size: 20px;
+    color: #068E06;
+    font-weight: 600;
+    background-color: #FECC47;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.pt16 {
+    text-decoration-line: underline;
+    text-decoration-color: #FECC47;
+    color: #068E06;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: #F7931E;
+    padding-left: 200px;
+    padding-right: 226px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 12%;
+    text-align: center;
+}
+
+.flex-container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: both;
+    background-color: #068E06;
+}
+
+.flex-container5 > div {
+    width: 200px;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.flex-container6 {
+    display: flex;
+    clear: both;
+    padding-left: 20px;
+    padding-right: 250px;
+    padding-bottom: 200px;
+    padding-top: 20px
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+label {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit] {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: #068E06;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #A4DBE4
+}
+
+.carousel-wrapper {
+    height: 465px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev {
+    left: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+.arrow-next {
+    right: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+  }
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('https://c.ndtvimg.com/2021-02/e2uarbeo_juice-_625x300_25_February_21.jpg');
+    background-size: cover;
+}
+
+.item-2 {
+    background: url('https://t3.ftcdn.net/jpg/06/08/75/46/360_F_608754640_6p9kcHoHMgp6RA4sGdk3SxNGH97n8n1l.jpg');
+    background-size: cover;
+}
+
+.item-3 {
+    background: url('https://img.freepik.com/premium-photo/orange-juice-wood_77044-140.jpg?w=360');
+    background-size: cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+ }
